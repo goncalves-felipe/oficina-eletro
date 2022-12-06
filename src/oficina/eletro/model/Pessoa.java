@@ -1,4 +1,4 @@
-package oficina.eletro;
+package oficina.eletro.model;
 
 public class Pessoa {
 	private int id;
