@@ -232,4 +232,13 @@ public class OrdemServico {
 	public void entregarProduto() {
 		this.entregue = true;
 	}
+	
+	public void pagar(float valor) {
+		if (this.valorPago + valor > this.valorFinal) {
+			System.err.println("Erro: valor pago maior que valor total");
+			return;
+		}
+		
+		this.valorPago += valor;
+	}
 }
