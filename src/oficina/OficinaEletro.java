@@ -37,31 +37,6 @@ public class OficinaEletro {
 			new Cliente(1, "Lucas Henrique", "lucashenrique@email.teste", "+99(99)99999-9999", "Rua 1 nro 2, bairro 3, cidade 4"),
 			new Cliente(2, "Antônio", "antonio@email.teste", "+99(99)99999-9999", "Rua 10 nro 20, bairro 30, cidade 40")
 		};
-		
-		System.out.println("Bem-vindo(a) ao sistema da Oficina Eletro!");
-		System.out.println("Para continuar, selecione uma opção abaixo:");
-		System.out.println("1: Para abrir uma nova ordem de serviço;\n2: Para acompanhar ordens de serviço existentes;\n3: Para fazer um pedido de novas peças;\n4: Para sair.");
-		System.out.flush();
-		
-		try {
-			int acao = Integer.parseInt(reader.readLine());
-			
-			switch(acao) {
-				case 1:
-					break;
-					
-				case 2:
-					break;
-					
-				case 3:
-					break;
-					
-				default:
-					break;
-			}
-		} catch (Exception e) {
-			System.err.println("Formato inválido!");
-		}
 	}
 
 }
