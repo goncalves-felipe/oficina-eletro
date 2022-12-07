@@ -13,10 +13,10 @@ public class Fornecedor extends Pessoa {
 		this.pedidos = new ArrayList<>();
 	}
 
-	public Fornecedor(int id, String nome, String email, String nroTelefone, String cnpj, List<Peca> pedidos) {
+	public Fornecedor(int id, String nome, String email, String nroTelefone, String cnpj) {
 		super(id, nome, email, nroTelefone);
 		this.cnpj = cnpj;
-		this.pedidos = pedidos;
+		this.pedidos = new ArrayList<>();
 	}
 
 	public String getCnpj() {
